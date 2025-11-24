@@ -57,7 +57,7 @@ public class BearerTokenArgumentResolver implements
   {
     Principal principal = webRequest.getUserPrincipal();
     
-    log.error("{}", principal);
+    log.debug("{}", principal);
     
     if(principal == null)
     {

@@ -38,7 +38,7 @@ public class AppSecretKey
   private final static Logger LOGGER = LoggerFactory.getLogger(
     AppSecretKey.class.getName());
 
-  private final static String SECRET_FILE = "secret.bin";
+  private final static String SECRET_FILE = "data/secret.bin";
 
   public AppSecretKey()
   {
